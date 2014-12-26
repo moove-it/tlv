@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.files         = Dir.glob('{lib}/**/*')
   s.description   = 'Utilities to parse and generate tlv with ease.'
 
-  s.add_dependency('rspec', '~> 3')
+  s.add_development_dependency('rspec', '~> 3')
   s.add_development_dependency('simplecov', '~> 0', '>= 0.9.1')
   s.add_development_dependency('simplecov-rcov', '~> 0', '>= 0.2.3')
   s.add_development_dependency('simplecov-rcov-text', '~> 0', '>= 0.0.3')
